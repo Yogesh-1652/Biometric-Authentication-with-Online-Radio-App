@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/drawable/ic_home.xml" value="0.151" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/drawable/ic_pause.xml" value="0.109" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/drawable/ic_play.xml" value="0.109" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/drawable/ic_settings.xml" value="0.109" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/drawable/ic_volume.xml" value="0.109" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/layout/activity_finger_print_authentication.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/layout/fragment_setting.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/layout/item_horizontal.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/layout/sliding_window_items.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/menu/bottom_menu.xml" value="0.12" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.109" />
+        <entry key="..\:/Users/HP/Downloads/OnlineFmRadio (2)/OnlineFmRadio/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.109" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

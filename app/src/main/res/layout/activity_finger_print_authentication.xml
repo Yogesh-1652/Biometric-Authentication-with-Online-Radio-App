@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall1"
+    tools:context=".FingerPrintAuthenticationActivity">
+
+    <TextView
+        android:id="@+id/onlinehead1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online FM Radio"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/onlinehead1"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:text="Use Your Fingerprint to Authenticate"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/desc"
+        android:id="@+id/thumb"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="20dp"
+        android:src="@drawable/ic_baseline_fingerprint_24" />
+
+    <TextView
+        android:id="@+id/msgtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="invisible"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thumb"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="20dp"
+        android:background="#fafafa"
+        android:padding="20dp"
+        android:text="Verify Now" />
+
+</RelativeLayout>

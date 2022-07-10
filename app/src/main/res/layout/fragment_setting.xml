@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+
+        android:id="@+id/settingRL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Quick Setting"
+            android:background="@color/black2"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:id="@+id/settingtv"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settingtv"
+            android:id="@+id/themetv"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="Theme" />
+
+        <ImageView
+            android:id="@+id/theme"
+            android:layout_below="@+id/themetv"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/theme"
+            android:id="@+id/sleeptimertv"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:textAlignment="center"
+            android:text="Sleep Timer" />
+
+        <ImageView
+            android:id="@+id/sleeptimer"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/sleeptimertv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="283dp"
+            android:src="@drawable/ic_timer"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+</FrameLayout>
